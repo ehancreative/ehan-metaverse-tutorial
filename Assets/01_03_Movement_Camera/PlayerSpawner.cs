@@ -2,12 +2,12 @@
 using Fusion;
 using UnityEngine;
 
-namespace _01_02_Scene_and_Player
+namespace _01_03_Movement_Camera
 {
     public class PlayerSpawner : SimulationBehaviour, IPlayerJoined
     {
         public GameObject playerPrefab;
-
+        
         /// <summary>
         /// 플레이어가 세션에 접속했을 때 호출되는 함수
         /// </summary>
